@@ -1,10 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import login from './components/login.vue'
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <div id="app">
-    <login/>
+  <div class="box-border">
+    <RouterView />
   </div>
 </template>
